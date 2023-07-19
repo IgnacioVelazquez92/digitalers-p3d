@@ -216,6 +216,7 @@ color: var(--dark);
   border: var(--light) 2px solid;
   color: var(--light);
   font-size: 1rem;
+  cursor: pointer;
 }
 
 /* CONVENIOS CONTAINER estilos Bloque 2*/
@@ -225,3 +226,70 @@ color: var(--dark);
 .convenios__picture__img{
   width: 100%;
 }
+
+
+
+/* Servicios estilos */
+.servicios{
+  background-color: var(--light);
+  padding: 0 4rem;
+}
+.servicios__titulo{
+  font-size: 2rem;
+  text-align: center;
+  padding: 2rem;
+  color: var(--dark);
+}
+
+.impresiones{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* .impresiones__picture{}
+.impresiones__div{}
+.impresiones__h3{}
+.impresiones__h4{} */
+
+.corte-cnc{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* .corte-cnc__picture{}
+.corte-cnc__div{}
+.corte-cnc__h3{}
+.corte-cnc__h4{} */
+
+
+.impresion3d{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* .impresion3d__picture{}
+.impresion3d__div{}
+.impresion3d__h3{}
+.impresion3d__h4{} */
+
+
+.plotter{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* .plotter__picture{}
+.plotter__div{}
+.plotter__h3{}
+.plotter__h4{} */
+
+
+.sublimacion{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* .sublimacion__picture{}
+.sublimacion__div{}
+.sublimacion__h3{}
+.sublimacion__h4{} */
