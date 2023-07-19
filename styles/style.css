@@ -1,0 +1,227 @@
+/* Carga de la fuente */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,500;0,700;1,500&display=swap');
+
+
+/* Colores */
+:root{
+  --primary:#0769E9;
+  --light:#F7F6F3;
+  --danger:#DC3545;
+  --white: #F8F9FA;
+  --dark:#212529;
+}
+
+
+/* reset de user agent */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Ubuntu', sans-serif;
+  background-color: var(--light);
+}
+
+/* Estilos del header */
+
+header{
+  background-color: var(--primary);
+  height: 10vh;
+  padding: 0 4rem;
+  color: var(--light);
+}
+
+/*NAVBAR : Estilos del navbar */
+.nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-height: 10vh;
+}
+
+/*NAVBAR : Estilos primer bloque */
+.nav__div{
+  max-height: 10vh;
+}
+.nav__div__a{
+  max-height: inherit;
+}
+
+.nav__div__img{
+  max-height: inherit;
+}
+
+/*NAVBAR : Estilos segundo bloque */
+.nav__ul{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 40%;
+}
+.nav__ul__li{
+  list-style: none;
+}
+.nav__ul__a{
+  color: var(--light);
+  text-decoration: none;
+}
+
+.nav__ul__a:hover{
+  text-decoration: underline;
+}
+
+
+/*MAIN */
+.main{
+  padding: 0 4rem;
+  min-height: 100vh;
+  background-color: var(--light) ;
+}
+
+/*MAIN: primer bloque*/
+.principal{
+  min-height: 90vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.principal__div{
+  height: 100%;
+}
+.principal__div__video{
+  height: 100%;
+}
+
+/*MAIN: segundo bloque*/
+.titulo{
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  height: 100%;
+}
+.titulo__h1{
+  font-size: 4rem;
+  text-align: center;
+  color: var(--primary);
+}
+.titulo__h1::first-line{
+color: var(--dark);
+}
+.titulo__h2{
+  font-size: 2rem;
+  text-align: center;
+  color: var(--dark);
+  width: 80%;
+  margin: 3rem auto;
+}
+
+
+/* Estilos del  footer */
+
+.footer{
+  background-color: var(--dark);
+  padding: 0 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Footer:primer bloque */
+.logo{
+  width: 20%;
+}
+.logo__img{
+  width: 100%;
+}
+
+/* Footer:segundo bloque */
+.social-media{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.social-media__li{
+  list-style: none;
+  margin-bottom:2rem ;
+}
+.social-media__li__a{
+  text-decoration: none;
+  color: var(--light);
+  font-size: 2rem;
+  
+}
+
+/* Footer:segundo bloque */
+.services{
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.services__li{
+  list-style: none;
+  margin-bottom:2rem ;
+}
+
+.services__li__a{
+  text-decoration: none;
+  color: var(--light);
+  font-size: 2rem;
+}
+
+
+/* CONVENIOS estilos */
+.convenios{
+  background-color: var(--primary);
+  padding: 0 4rem;
+}
+.convenios__h2{
+  font-size: 2rem;
+  text-align: center;
+  padding: 2rem;
+  color: var(--light);
+}
+
+.container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* CONVENIOS CONTAINER estilos Bloque 1*/
+
+.container__article{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.container__p{
+  color: var(--light);
+  width: 40%;
+  font-size: 1.5rem;
+}
+.container__btn{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.container__btn button {
+  padding: 1rem;
+  border-radius: 0.2rem;
+  background-color:transparent;
+  border: var(--light) 2px solid;
+  color: var(--light);
+  font-size: 1rem;
+}
+
+/* CONVENIOS CONTAINER estilos Bloque 2*/
+.convenios__picture{
+  width: 70%;
+}
+.convenios__picture__img{
+  width: 100%;
+}
